@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import heroImg from "../public/img/apps.png";
 
 export default function Hero() {
   return (
@@ -48,8 +48,8 @@ export default function Hero() {
           <div className="">
             <Image
               src={heroImg}
-              width="616"
-              height="617"
+              width="500"
+              height="710"
               alt="Hero Illustration"
               layout="intrinsic"
               loading="eager"
